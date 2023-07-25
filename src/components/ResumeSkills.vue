@@ -33,6 +33,11 @@ const skills = ref([
   {
     label: 'Other',
     value: 60,
+  },
+  {
+    label: 'PMP',
+    subLabel: '(3A)',
+    value: 80,
   }
 ])
 </script>
@@ -51,11 +56,15 @@ const skills = ref([
         <var-progress
           mode="circle"
           label
+          color="green"
           line-width="5"
           :value="s.value"
           :size="74"
         >
-          <span class="resume-skills-value">{{ s.value }}</span>
+          <div class="resume-skills-wrapper">
+            <span class="resume-skills-value">{{ s.value }}</span>
+            <span class="resume-skills-value">{{ s.subLabel }}</span>
+          </div>
         </var-progress>
         <span class="resume-skills-label">{{ s.label }}</span>
       </var-col>
@@ -82,6 +91,12 @@ const skills = ref([
     border-bottom: thin solid #ddd;
   }
 
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   &-label {
     margin-top: 10px;
     font-size: 16px;

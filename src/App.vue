@@ -65,10 +65,6 @@
 
     <resume-block title="开源项目">
       <resume-block-item
-        title="Varlet UI"
-        description="这个简历就是用它做的，地址在这: https://github.com/varletjs/varlet"
-      />
-      <resume-block-item
         title="Naive UI"
         description="Vue3的一个UI框架，当初还被尤大专门发推了呢，地址在这: https://github.com/tusen-ai/naive-ui"
       />
@@ -78,7 +74,7 @@
       />
       <resume-block-item
           title="Quark UI"
-          description="这是一个基于Web Component开发的组件库哦~ 地址在这: https://vue-quarkd.hellobike.com/#/"
+          description="这是一个基于Web Component开发的组件库哦~ 地址在这: https://vue-quarkd.hellobike.com/"
         />
     </resume-block>
   </div>

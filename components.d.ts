@@ -30,9 +30,16 @@ declare module '@vue/runtime-core' {
     ResumeProfile: typeof import('./src/components/ResumeProfile.vue')['default']
     ResumeSkills: typeof import('./src/components/ResumeSkills.vue')['default']
     ResumeTimeline: typeof import('./src/components/ResumeTimeline.vue')['default']
+    VarAppBar: typeof import('@varlet/ui')['_AppBarComponent']
+    VarAvatar: typeof import('@varlet/ui')['_AvatarComponent']
+    VarButton: typeof import('@varlet/ui')['_ButtonComponent']
     VarCell: typeof import('@varlet/ui')['_CellComponent']
     VarCol: typeof import('@varlet/ui')['_ColComponent']
+    VarIcon: typeof import('@varlet/ui')['_IconComponent']
     VarPaper: typeof import('@varlet/ui')['_PaperComponent']
+    VarProgress: typeof import('@varlet/ui')['_ProgressComponent']
     VarRow: typeof import('@varlet/ui')['_RowComponent']
+    VarStep: typeof import('@varlet/ui')['_StepComponent']
+    VarSteps: typeof import('@varlet/ui')['_StepsComponent']
   }
 }
